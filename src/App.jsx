@@ -37,7 +37,7 @@ const THEME = {
 };
 
 // ─── DATA ─────────────────────────────────────────────────────────────────────
-const NAV_LINKS = ["Home","About","Skills","Projects","Experience","Education","Contact"];
+// const NAV_LINKS = ["Home","About","Skills","Projects","Experience","Education","Contact"];
 
 const SKILLS = {
   Frontend: [
@@ -857,7 +857,7 @@ function Contact({ t }) {
     <section id="contact" style={{ padding: "100px 0", background: t.bgCard }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 24px" }}>
         <FadeIn>
-          <span style={{ fontSize: 11, fontFamily: "'JetBrains Mono', monospace", color: t.accent, fontWeight: 600, letterSpacing: "0.1em" }}>06 // CONTACT</span>
+          {/* <span style={{ fontSize: 11, fontFamily: "'JetBrains Mono', monospace", color: t.accent, fontWeight: 600, letterSpacing: "0.1em" }}>06 // CONTACT</span> */}
           <h2 style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)", fontWeight: 900, color: t.text, fontFamily: "'Clash Display', sans-serif", margin: "12px 0 16px" }}>
             Get In Touch
           </h2>
