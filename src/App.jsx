@@ -37,7 +37,7 @@ const THEME = {
 };
 
 // ─── DATA ─────────────────────────────────────────────────────────────────────
-const NAV_LINKS = ["Home","About","Skills","Contact"];
+const NAV_LINKS = ["Home","About","Contact"];
 
 const SKILLS = {
   Frontend: [
@@ -112,7 +112,7 @@ const PROJECTS = [
     icon: "💬",
   },
   {
-    title: "Feedback Aggregator",
+    title: "Feedback & Aggregator",
     category: "Laravel",
     description: "Centralized customer feedback management system for restaurants with analytics dashboard and multi-platform aggregation.",
     tech: ["Laravel", "MySQL", "React.js"],
@@ -137,7 +137,7 @@ const EXPERIENCE = [
     role: "Web Developer",
     period: "Sep 2024 – Present",
     location: "Chennai, Tamil Nadu",
-    current: true,
+    current: false,
     points: [
       "Developing restaurant POS SaaS applications with multi-shop management",
       "Building self-service kiosk ordering systems with React.js",
@@ -423,9 +423,9 @@ function Hero({ t, scrollTo }) {
               background: t.accentGlow, marginBottom: 24,
             }}>
               <span style={{ width: 7, height: 7, borderRadius: "50%", background: t.accentAlt, animation: "pulse 2s infinite" }} />
-              <span style={{ fontSize: 12, color: t.accent, fontFamily: "'JetBrains Mono', monospace", fontWeight: 600, letterSpacing: "0.05em" }}>
+              {/* <span style={{ fontSize: 12, color: t.accent, fontFamily: "'JetBrains Mono', monospace", fontWeight: 600, letterSpacing: "0.05em" }}>
                 AVAILABLE FOR OPPORTUNITIES
-              </span>
+              </span> */}
             </div>
 
             <h1 style={{
@@ -483,8 +483,8 @@ function Hero({ t, scrollTo }) {
 
             <div style={{ display: "flex", gap: 20, marginTop: 32, flexWrap: "wrap" }}>
               {[
-                { label: "2+ Years", sub: "Experience" },
-                { label: "6+", sub: "Projects" },
+                { label: "2.8 Years", sub: "Experience" },
+                { label: "10+", sub: "Projects" },
                 { label: "2", sub: "Companies" },
               ].map((s) => (
                 <div key={s.label}>
