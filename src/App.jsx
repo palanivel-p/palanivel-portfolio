@@ -37,7 +37,7 @@ const THEME = {
 };
 
 // ─── DATA ─────────────────────────────────────────────────────────────────────
-// const NAV_LINKS = ["Home","About","Skills","Projects","Experience","Education","Contact"];
+const NAV_LINKS = ["Home","About","Skills","Contact"];
 
 const SKILLS = {
   Frontend: [
